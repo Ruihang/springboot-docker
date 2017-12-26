@@ -91,3 +91,9 @@ docker images
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
 ruihang/springboot-docker   latest              679603d30222        16 minutes ago      116MB
 ```
+
+### 3.运行测试
+```
+docker run --rm -p 8080:8080 ruihang/springboot-docker
+```
+访问`http://localhost:8080/hello`，如有响应结果就成功了。
